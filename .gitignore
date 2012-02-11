@@ -1,0 +1,9 @@
+*~
+\#*
+.*
+!.gitignore
+
+dist
+*.hi
+*.o
+ranks

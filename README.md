@@ -1,0 +1,77 @@
+
+    $ make
+    ghc -Wall -fno-warn-orphans -O2 -threaded -rtsopts ranks.hs -o ranks
+    [1 of 1] Compiling Main             ( ranks.hs, ranks.o )
+    Linking ranks ...
+    $ ./ranks
+    usage: ./ranks <file-with-tags> 1>/dev/null
+    $ ./ranks langs.tags 1>/dev/null
+    c#                  265672                                  
+    java                206230                                  
+    php                 190797                                  
+    javascript          175174                                  
+    asp.net             110010                                  
+    c++                 109432                                  
+    python              92691                                   
+    objective-c         71740                                   
+    c                   51027                                   
+    ruby                39132                                   
+    perl                16164                                   
+    delphi              13464                                   
+    r                   9821                                    
+    shell               7793                                    
+    scala               7675                                    
+    matlab              7403                                    
+    haskell             5668                                    
+    actionscript        4895                                    
+    assembly            4368                                    
+    groovy              3599                                    
+    coldfusion          3344                                    
+    f#                  3124                                    
+    clojure             2613                                    
+    io                  2261                                    
+    erlang              2100                                    
+    lua                 1832                                    
+    scheme              1405                                    
+    prolog              1320                                    
+    coffeescript        989                                     
+    fortran             935                                     
+    ocaml               825                                     
+    common-lisp         798                                     
+    tcl                 717                                     
+    go                  656                                     
+    xquery              628                                     
+    d                   575                                     
+    arduino             504                                     
+    racket              451                                     
+    smalltalk           379                                     
+    vhdl                308                                     
+    ada                 269                                     
+    sml                 247                                     
+    verilog             245                                     
+    self                219                                     
+    rebol               206                                     
+    autohotkey          188                                     
+    haxe                117                                     
+    vala                105                                     
+    boo                 87                                      
+    opa                 82                                      
+    factor              79                                      
+    puppet              71                                      
+    basic               69                                      
+    arc                 61                                      
+    objective-j         61                                      
+    nemerle             42                                      
+    coq                 38                                      
+    eiffel              25                                      
+    modelica            18                                      
+    parrot              16                                      
+    turing              16                                      
+    mirah               8                                       
+    agda                8                                       
+    supercollider       7                                       
+    fantom              4                                       
+    rust                4                                       
+    dylan               4                                       
+    ioke                3                                       
+    nu                  3                                       
